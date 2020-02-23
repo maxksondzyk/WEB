@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Meta data-->
+    <meta charset="UTF-8">
+    <title>Cats</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /*defines the style of the first item of the list in the services section*/
+        .first{
+            color: darksalmon;
+            background-color: cadetblue;
+        }
+        /*defines the style of the second item of the list in the services section*/
+        .second{
+            color: violet;
+            background-color: darkkhaki;
+        }
+        /*defines the style of the third item of the list in the services section*/
+        .third{
+            color: lightgreen;
+            background-color: navy;
+        }
+        /*defines the style of the fourth item of the list in the services section*/
+        .fourth{
+            color: aqua;
+            background-color: lightsteelblue;
+        }
+
+    </style>
+    <!---->
+</head>
+
+<body>
+<!--Titles-->
+<div id = "titles">
+<h1>Cats Of Ukraine</h1>
+<img src="images/cat.png" alt="logo" width = "300" height = "185">
+<h2>Your pleasure!</h2>
+<hr>
+<blockquote>Purr your life up</blockquote>
+</div>
+<!--Contains three blocks aligned horizontally-->
+<div class = "container">
+<div id = navigation>
+<nav>
+    <ul>
+        <li> <a href = "#titles">Верх</a></li>
+        <li> <a href = "#about">Про нас</a></li>
+        <li> <a href = "#control">Контролюючі органи</a></li>
+        <li> <a href = "#docs">Установчі документи</a></li>
+        <li> <a href = "#services">Послуги</a></li>
+        <li> <a href = "#customers">Наші замовники</a></li>
+        <li> <a href = "#dservices">Послуги(детально)</a></li>
+        <li> <a href = "#finances">Фінанси</a></li>
+        <li> <a href = "#contacts">Контакти</a></li>
+    </ul>
+</nav>
+</div>
+<!--Control departments-->
+<div id = "control">
+    <h3>
+        Контролюючі органи
+    </h3>
+    <a href="https://rada.gov.ua/" style="color: rgba(150,30,200,0.7);font-weight: bold">Верховна Рада України</a><br>
+    <a href="https://www.president.gov.ua/" style="color: rgba(150,30,200,0.7);font-weight: bold">Президент України</a><br>
+    <a href="https://www.kmu.ua/" style="color: rgba(30,150,200,0.7)">Кабінет Міністрів України</a>
+</div>
+<!--Documents-->
+<div id = "docs">
+    <h3>
+        Установчі документи
+    </h3>
+    <a href="files/Statut.pdf">Статут</a><br>
+    <a href="files/Dohovir.docx">Договір</a><br>
+    <a href="files/Certificate.jpg">Сертифікат</a>
+</div>
+</div>
+<!--contains two elements aligned horizontally-->
+<div class = "container3">
+    <!--iframe-->
+<div id = "iframe">
+    <iframe src = "https://www.epam-group.ru/" width="100%">
+        Ваш браузер не підтримує елементи HTML5
+    </iframe>
+
+</div>
+    <!--video-->
+<div id = "video">
+    <video controls width="275">
+        <source src="files/vid.mp4" type="video/mp4">
+    </video>
+</div>
+</div>
+
+<figure class = "catExample">
+    <img  src = images/cats.jpg alt = "Examples of cats" width = "50%" >
+    <figcaption>
+Приклади котів
+    </figcaption>
+</figure>
+<!--About info-->
+<div class = "capital" id = "about" >
+<h3 >Про нас</h3>
+    <p class="large-font">Створення <u>компанії</u> відбулось <i>26</i> січня <b>2</b><sub>0</sub>2<sup>0</sup> року </p>
+    <p class ="middle-font">Наша <em>мета</em> - <ins>запропонувати</ins> <del>вам</del> <strong>найкращих</strong> українських котів</p>
+    <p ID="small-font">Ми пропонуємо широкий вибір<br> котів та кошенят</p>
+</div>
+<p>Насолоджуйтесь мявчанням!</p>
+<abbr title ="Cats Of Ukraine">COU</abbr>
+<p> Ми працюємо щодня з <time datetime="10:00+02:00">10:00</time> до <time datetime="23:00+02:00">23:00</time></p>
+<div class = "container2">
+<!--Services-->
+<div id = "services">
+<h3>
+    Послуги
+</h3>
+<ul>
+    <li class="first">Купівля кота</li>
+    <li class="second">Оренда кота погодинно</li>
+    <li class="third">Обмін котів</li>
+    <li class="fourth">Відеочат із кошенятами</li>
+</ul>
+</div>
+<!--Customers-->
+<div id = "customers" class="customers">
+<h3>
+   Наші замовники
+</h3>
+<ol>
+    <li>Ольга Полякова</li>
+    <li>Олег Винник</li>
+    <li>Ед Ширан</li>
+    <li>Мадонна</li>
+</ol>
+</div>
+</div>
+<!--Services(in detail)-->
+<div id = "dservices">
+<h3>
+    Послуги (детально)
+</h3>
+<dl>
+    <dt style = " color: indianred;background-color: antiquewhite">Купівля кота</dt>
+    <dd style = " color: aquamarine; background-color: lightcoral">Обирайте наймилішого Вам улюбленця за помірну ціну</dd>
+    <dt style = " color: lemonchiffon; background-color: rebeccapurple">Оренда кота погодинно</dt>
+    <dd style = " color: lavenderblush; background-color: black">Кіт приїде до вас у найближчий час, додаткова плата за певні послуги</dd>
+    <dt style = " color: slategray; background-color: plum">Обмін котів</dt>
+    <dd style = " color: green; background-color: navy">Ваш кіт Вам остогид? Оберіть нового абсолютно безкоштовно, а старого принесіть нам!</dd>
+    <dt style = " color: tan; background-color: red">Відеочат із кошенятами</dt>
+    <dd style = " color: darkslategrey;background-color: darkorange">Вам самотньо? Хочеться тепла, але не хочеться нікуди їхати? Завантажте застосунок Дуо та заходьте у приватний відеочат із нашими відбірними кошенятами!</dd>
+</dl>
+</div>
+<!--Finances-->
+<div id = "finances">
+<h3>
+   Фінансові показники
+</h3>
+<table style="width:100%" border="2">
+    <caption>Показники</caption>
+<tr>
+    <th></th>
+    <th>Доходи</th>
+    <th>Витрати</th>
+    <th>Прибуток</th>
+</tr>
+    <tr>
+        <th >Серпень</th>
+        <th colspan="3">0</th>
+    </tr>
+    <tr>
+        <th>Вересень</th>
+        <th>100</th>
+        <th style = "background-color: antiquewhite">300</th>
+        <th>-200</th>
+    </tr>
+    <tr>
+        <th>Жовтень</th>
+        <th><span>200</span></th>
+        <th>300</th>
+        <th>-100</th>
+    </tr>
+    <tr>
+        <th>Листопад</th>
+        <th colspan="2">300</th>
+        <th>0</th>
+    </tr>
+    <tr>
+        <th>Грудень</th>
+        <th style="background-color: antiquewhite">1000</th>
+        <th>400</th>
+        <th>600</th>
+    </tr>
+    <tr>
+        <th>Січень</th>
+        <th>1200</th>
+        <th>350</th>
+        <th>850</th>
+    </tr>
+
+</table>
+</div>
+<!--Contacts-->
+<div id = "contacts">
+<h3>
+    Контакти
+</h3>
+<form accept-charset="UTF-8">
+    <fieldset>
+        <legend>Форма звернення</legend>
+        Прізвище: <input type = "text" maxlength="15" tabindex="2" required><br>
+        Ім'я: <input type = "text" maxlength="15" autofocus tabindex="1"><br>
+        По-батькові: <input type = "text" maxlength="15" disabled><br>
+        Місце роботи: <input type = "text" maxlength="15" readonly><br>
+        Тип запиту: <br>
+        Технічна підтримка <input type = "radio" name="type" value = "techsupport" checked tabindex="4"><br>
+        Підтримка користувача <input type = "radio" name="type" value = "custsupport" ><br>
+        Інше <input type = "radio" name="type" value = "other"><br>
+        Категорія користувача:
+        <select>
+            <option name = "category" value="guest" selected>Гість</option>
+            <option name = "category" value= "registered">Зареєстрований</option>
+            <option name = "category" value="premium">Преміум-користувач</option>
+        </select><br>
+        Текст запиту:<br>
+        <textarea name = "text" rows="5" cols="35" tabindex="3">
+        </textarea><br>
+        Дата запиту:<input type="date" name ="date"><br>
+        Вкладення: <input type = "file" name = "file"><br>
+        Стаж користувача: <input type = "number" name = "age" min="0" max = "4"><br>
+        Країна <input type="text" name="country" pattern="[A-Za-z]{3}"><br>
+        <input type="email" name="email"><br>
+        Пріоритетність запиту: <input type="color", name="priority" value="priority"><br>
+        Веб-сторінка: <input type="url" name = "web"><br>
+        <p contenteditable="true"></p>
+        <input type = "submit" value="Надіслати запит"><br>
+        <input id = "cancelb" type="button" value="Відміна"><br>
+        <input id = "saveb" type="button" value="Зберегти"><br>
+    </fieldset>
+</form>
+</div>
+<!--An element with transition animation-->
+<div class = "trans"></div>
+<!--A translating element -->
+<div class="meow">
+    МЯУ
+</div>
+<!--A rotating element-->
+<div class="purr">
+    МУР
+</div>
+<!--A scaling element-->
+<div class="shhh">
+    шШШ
+</div>
+<!--An element of three other elements aligned horizontally and styled differently-->
+<div class = "numcats">
+    <div class = "onecat">
+        Кіт сві́йський, або кі́шка сві́йська (лат. Felis silvestris catus), як і його родич кіт дикий (лісовий) — невеликий ссавець ряду хижих родини котових. Сучасна назва походить від латинської назви catus, що використовується для позначення дикого кота, на відміну від свійського, який латиною називається felis.
+    </div>
+    <div class = "twocat">
+        Кіт перебуває в тісному співіснуванні з людиною понад 9500 років[1] та є найпоширенішою хатньою твариною[2]. Поширений у всіх районах земної кулі. Україна входить в 10 країн з найбільшою кількістю населення котів (станом на 2006 рік), ставши домом для 7 350 000 домашніх котів[3]. Загалом у світі нараховується близько 600 млн (2015 рік) свійських котів[4].
+    </div>
+    <div class = "threecat">
+        Коти приблизно одного розміру з іншими малими кішками, вони мають струнке тіло, гострі зуби, чудовий зір та нюх, добре пристосовані для полювання на менших тварин. Однак коти, у порівнянні з дикими родичами, втратили смак до цукру, а певні популяції проявляють спадкову глухоту. Хоча коти полюють поодинці, вони є соціальними тваринами, що використовують численні засоби комунікації, у тому числі вокалізацію, феромони, мову тіла[5].
+    </div>
+</div>
+<!--Huge scrollable text-->
+    <div id = "bigtext">
+        Мурчання - вібрації кохання
+    </div>
+<!--Audio-->
+    <div>
+        <audio controls>
+            <source src="files/mus.mp3" type="audio/mp3">
+        </audio>
+    </div>
+<!--Text within the image-->
+<div id = "imtext">
+    Hello
+</div>
+<!--Magazine-like styled four-columned text-->
+    <div id = "columntext">
+        <p> Кіт (Felis) — рід хижих ссавців родини котових (Felidae). У деяких старіших системах класифікації до нього зараховували всіх представників малих кішок (Felinae), проте зараз безпосередньо до роду відносяться лише кілька видів невеликих тварин, що мешкають у Євразії та Африці.</p>
+        <p>    Найвідомішим представником цього роду є свійський кіт — підвид кота лісового.</p>
+        <p>  За розміром найменшим представником роду є вид мураховий тигр довжина тіла і голови якого становить від 38 до 44 см. Найбільшим є кіт очеретяний із довжиною тіла і голови від 62 до 76 см[4]. Види котів (Felis) мешкають у широкому різновиді природних середовищ, від болотяних до пустель, і харчуються здебільшого малими мишоподібними, птахами й іншими дрібними тваринами.</p>
+        <p>   Генетичні дослідження показують, що Кіт (Felis), Манул (Otocolobus) і Азійський кіт (Prionailurus) походять від Євразійського прародителя що існував близько 6,2 мільйонів років тому, і що види Котів розділилися від 3,04 до 0.99 мільйонів років тому[5][6].</p>
+    </div>
+    <canvas id="canvas" width="500" height="500" style="border: 1px solid black"></canvas>
+
+<!--Fancy font text-->
+    <div id = "chauscat">
+        <p> Кіт очеретяний[1][2], хаус[2] (Felis chaus) — вид хижих ссавців родини котових. Цей середніх розмірів кіт із порівняно довгими ногами й коротким хвостом мешкає в Південній Азії, Південно-Східній Азії, на півдні Китаю та в долині річки Нілу (Єгипет). Вид має статус найменшого ризику у Червоному списку Міжнародного союзу охорони природи[3].Кіт очеретяний може жити і в місті,хоча це буває рідко.</p>
+        <p> Вид був описаний 1776 р. німецьким природодослідником із Риги Йоганном Ґюльденштедтом. Німецький натураліст із Тюрингії Йоган Хрістіан Даніель фон Шребер дав кішці біноміальну назву, тому загально вважається, що саме він має біноміальну владу над видом. Наразі вирізняють 3 підвиди[4].</p>
+        <img src="images/chaus.jpg" width="200" class = "chausimg">
+        <p> Очеретяна кішка важить 2–16 кг, її висота становить приблизно 36 см до плечей. Вона може бути пісочного, червонувату коричневого чи сірого кольору, без плям чи смуг; трапляються меланісти та альбіноси. Линяння відбувається двічі на рік.</p>
+        <p> Очеретяні коти є денними тваринами, полюють упродовж дня. Поодинокі, з іншими представниками свого виду не вступають у зв'язок, за винятком сезону спаровування. Утримують за собою територію сечовипусканням та позначенням запаху. Є хижаками, живляться невеликими ссавцями (піщанкові, зайці та гризуни) та птахами. Полюють, переслідуючи свою жертву, після чого стрибають на неї та вбивають. Гострі вуха допомагають краще визначати місцеположення здобичі. Статеве дозрівання настає у віці до одного року; еструс відбувається у січні — березні. Поведінка спарювання подібна до поводження домашніх кішок. Вагітність триває близько двох місяців. Залежно від географічного положення, народжують кошенят у грудні або червні. Кошенята починають самостійно плювати в шість місяців та покидають свою матір у 8–9 місячному віці.</p>
+        <p>  Очеретяний кіт оселяється у різних місцевостях. Віддає перевагу територіям з достатньою кількістю води та щільною рослинністю — болотам, водно-болотним угіддям і прибережним зонам. Ці тварини уникають тропічні ліси та рідколісся.</p>
+    </div>
+
+<div class = "gallery">
+    <div class = cont>
+        <img src = "images/g1.jpg" class="gal">
+        <div class="hov">
+        <h1>Костя</h1>
+        <p>Любить спостерігати за люстрою</p>
+        </div>
+    </div>
+    <div class = cont>
+        <img src = "images/g2.jpg" class="gal">
+        <div class="hov">
+        <h1>Бодя</h1>
+        <p>Любить сидіти на підвіконні</p>
+        </div>
+    </div>
+    <div class = cont>
+<!--    <div class = "swap">-->
+        <img src = "images/g7.jpg" class="gal">
+<!--    </div>-->
+            <div class = "swap">
+
+                <div class="hov1">
+<!--                    <img src = "images/g3.jpg" class="gal1">-->
+                    <div class="hov2">
+                    <h1>Толік</h1>
+                    <p>Любить свій шарфик</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class = cont>
+        <img src = "images/g4.jpg" class="gal">
+        <div class="hov">
+        <h1>Ліна</h1>
+        <p>Любить м'які пледи</p>
+        </div>
+    </div><div class = cont>
+        <img src = "images/g5.jpg" class="gal">
+        <div class="hov">
+        <h1>Коко</h1>
+        <p>Ще не визначилась, що любить</p>
+        </div>
+    </div><div class = cont>
+        <img src = "images/g6.jpg" class="gal">
+        <div class="hov">
+        <h1>Тіна</h1>
+        <p>Любить тебе</p>
+        </div>
+    </div>
+</div>
+<!--text with the shadow-->
+    <h3 id = "love">
+        I love cats very much
+    </h3>
+<!--Details about the creator-->
+    <details>
+        <summary> Ксьондзик, 2020:&copy </summary>
+        <p>Сайт було створено студентом <mark>Національного університету "Києво-Могилянська Академія"</mark>, Ксьондзиком Максимом</p>
+        <p>За допомогою <mark>HTML</mark> та середовища розробки <mark>"WebStorm"</mark></p>
+    </details>
+    <a href="mailto:maxksiondzyk@gmail.com">Напишіть нам</a><br>
+<!---->
+</body>
+</html>

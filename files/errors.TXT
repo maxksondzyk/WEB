@@ -1,0 +1,45 @@
+Warning: Consider adding a lang attribute to the html start tag to declare the language of this document.
+
+From line 1, column 16; to line 2, column 6
+
+TYPE html>↩<html>↩↩<hea
+
+For further guidance, consult Declaring the overall language of a page and Choosing language tags.
+
+If the HTML checker has misidentified the language of this document, please file an issue report or send e-mail to report the problem.
+
+Error: The border attribute on the table element is obsolete. Use CSS instead.
+
+From line 119, column 1; to line 119, column 37
+
+ики↩</h3>↩<table style="width:100%" border="2">↩    <
+
+Error: The name attribute on the option element is obsolete. Use the id attribute instead.
+
+From line 181, column 13; to line 181, column 61
+
+          <option name = "Гість" value="selected" selected>Гість<
+
+Error: The name attribute on the option element is obsolete. Use the id attribute instead.
+
+From line 182, column 13; to line 182, column 64
+
+          <option name = "Зареєстрований" value= "unselected">Зареєс
+
+Error: The name attribute on the option element is obsolete. Use the id attribute instead.
+
+From line 183, column 13; to line 183, column 67
+
+          <option name = "Преміум-користувач" value="unselected">Преміу
+
+Warning: The date input type is not supported in all browsers. Please be sure to test, and consider using a polyfill.
+
+From line 188, column 21; to line 188, column 52
+
+та запиту:<input type="date" name ="date"><br>↩ 
+
+Error: Named character reference was not terminated by a semicolon. (Or & should have been escaped as &amp;.)
+
+At line 195, column 40
+
+зик, 2020:&copy </summary>↩   

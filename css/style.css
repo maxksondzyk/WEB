@@ -1,0 +1,433 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="div"] {
+        width: 100%;
+    }
+    [class*="gallery"] {
+        /*column-count: 1;*/
+        column-width: 30em;
+    }
+}
+    /*defines the fist paragraph of about section*/
+    .large-font {
+        font-size: 1.5em;
+        background-color: #cd5c5c;
+
+    }
+
+    /*defines the second paragraph of about section*/
+    .middle-font {
+        font-size: 20px;
+        background-color: rgb(201, 90, 76);
+        initial-letter: 2;
+    }
+
+    /*defines the third paragraph of about section*/
+    p#small-font {
+        font-size: 70%;
+        background-color: antiquewhite;
+    }
+
+    /*defines the capital letter in all the paragraphs of the about section*/
+    .capital p::first-letter {
+        color: aliceblue;
+        font-size: 200%;
+    }
+    .gallery{
+       column-count: 3;
+        width: 96%;
+        /*position: relative;*/
+    }
+    .cont{
+        position: relative;
+        margin-top: 0;
+        transition: all .5s;
+    }
+    .hov {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+
+        opacity: 0;
+        margin-bottom: 19px;
+        /* transition effect. not necessary */
+        transition: opacity .3s, visibility .3s;
+    }
+.hov2 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+margin: 0;
+    opacity: 0;
+    /*margin-bottom: 19px;*/
+    /* transition effect. not necessary */
+    transition: opacity .3s, visibility .3s;
+}
+
+.hov1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../images/g3.jpg");
+    background-size: 100%;
+    color: #fff;
+
+    opacity: 0;
+    margin-bottom: 19px;
+    /* transition effect. not necessary */
+    transition: opacity .3s, visibility .3s;
+}
+
+    .cont:first-child:hover{
+        transform: scale(1.1);
+    }
+    .cont:nth-child(2):hover{
+    transform: rotate(1turn);
+    }
+   .hov1:hover{
+       visibility: visible;
+       opacity: 1;
+   }
+.hov2:hover{
+    visibility: visible;
+    opacity: 1;
+}
+    .hov:hover{
+    visibility: visible;
+    opacity: 1;
+    }
+    .gal{
+        width: 100%;
+    }
+    .gal1{
+        position: absolute;
+        width: 100%;
+        z-index: 9999;
+        transition: opacity .5s linear;
+    }
+    .gal1:hover{
+        opacity: 0;
+    }
+    .swap img{
+        position: absolute;
+        top:0;
+        left:0;
+        overflow: hidden;
+        /* Sets the width and height for the images*/
+        width: 100%;
+
+        /*height: 400px;*/
+    }
+    .swap:hover{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /*defines the margin to all the elements*/
+    * {
+        margin: 15px;
+    }
+
+    /*formatting for all H3 elements*/
+    h3 {
+        background-color: pink;
+        color: deeppink;
+    }
+
+    /*defines the style for the navigation menu list items*/
+    nav li, li a {
+        font-size: 1.1em;
+        background-color: indianred;
+        color: antiquewhite;
+    }
+
+    /*defines the style for the navigation menu when hovered*/
+    nav li:hover, li a:hover {
+        color: black;
+
+    }
+
+    /*defines the style for the navigation menu list items after being visited*/
+    nav li a:visited {
+        color: azure;
+    }
+
+    table tr + th {
+        background-color: violet;
+    }
+
+    /*defines the style for the table*/
+    table {
+        background-color: indianred;
+    }
+
+    /*defines the style for some of the table items*/
+    .other {
+        background-color: antiquewhite;
+    }
+
+    /*defines the style for the customers*/
+    div.customers {
+        border: outset indianred;
+        box-shadow: 5px 10px darkred;
+    }
+
+    /*the first container of three horizontally placed elements*/
+    .container {
+        width: 80%;
+        /*height: 410px;*/
+        padding: 10px;
+        border: double;
+        margin: 20px;
+        overflow: auto;
+        display: block;
+    }
+
+
+    /*defines the style for the navigation div*/
+    #navigation {
+        float: left;
+    }
+
+    /*defines the style of the control div*/
+    #control {
+        float: left;
+        margin-left: 20px;
+    }
+
+    /*defines the style of the docs div*/
+    #docs {
+        float: left;
+    }
+
+    /*defines the style of the second container consisting of two elements*/
+    .container2 {
+        width: 80%;
+        /*height: 250px;*/
+        padding: 15px;
+        border: dashed;
+        margin: 5px;
+        overflow: auto;
+        display: block;
+    }
+
+    /*defines the style of the services div*/
+    #services {
+        float: left;
+    }
+
+    /*defines the style of the customers div*/
+    #customers {
+        float: left;
+        margin-left: 20px;
+    }
+
+    /*defines the style of the third container*/
+    .container3 {
+        /*height: 220px;*/
+        padding: 20px;
+        border: dotted;
+        margin: 10px;
+        overflow: auto;
+        display: block;
+    }
+
+    /*defines he style of the iframe div*/
+    #iframe {
+        float: left;
+    }
+
+    /*defines the style of the video div*/
+    #video {
+        float: left;
+        margin-left: 20px;
+    }
+
+    /*defines the style of the big scrollable text*/
+    #bigtext {
+        height: 150px;
+        overflow: auto;
+        font-size: 1000%;
+        padding: 25px;
+        border: dotted red;
+        margin: 11px;
+    }
+
+    /*defines the style of the text within the image*/
+    #imtext {
+        font-size: 700%;
+        background-image: url('../images/cat.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 15px;
+        border: double magenta;
+        margin: 15px;
+        background-attachment: fixed;
+    }
+
+    /*defines the style of the magazine-like styled text*/
+    #columntext {
+        column-count: 4;
+        text-align: justify;
+        padding: 5px;
+        border: dashed firebrick;
+        margin: 29px;
+    }
+
+    /*cancel button of the form enabled*/
+    #cancelb:enabled {
+        color: indianred;
+    }
+
+    /*cancel button of the form enabled*/
+    #cancelb:disabled {
+        color: darkred;
+    }
+
+    /*save button of the form enabled*/
+    #saveb:enabled {
+        color: lightgreen;
+    }
+
+    /*save button of the form disabled*/
+    #saveb:disabled {
+        color: darkgreen;
+    }
+
+    /*declaration of the font*/
+    @font-face {
+        font-family: 'Amatic SC';
+        src: url("https://fonts.googleapis.com/css?family=Amatic+SC&display=swap");
+    }
+    /*the text with the fancy font*/
+    #chauscat {
+        width: 100%;
+        font-family: 'Amatic SC', cursive;
+        max-width: 90%;
+    }
+
+    /*an image within the text with the fancy font*/
+    .chausimg {
+        float: right;
+    }
+
+    /*the text with the shadow*/
+    #love {
+        text-shadow: 1px 1px 2px black;
+
+    }
+
+    /*the div consisting of three other divs*/
+    .numcats {
+        width: 90%;
+        height: 410px;
+        padding: 10px;
+        /*border: indianred;*/
+        margin: 2px;
+        content: "";
+        display: table;
+        clear: both;
+        border: double darkviolet;
+    }
+
+    /*the first div*/
+    .onecat {
+        float: left;
+        width: 28%;
+        border-radius: 15px 15px 15px 15px;
+        background-color: indianred;
+        padding: 20px;
+        border: dotted black;
+        margin: 10px;
+    }
+
+    /*the second div*/
+    .twocat {
+        float: left;
+        width: 28%;
+        background-image: url("../images/kit.jpg");
+        padding: 20px;
+        border: dotted darkmagenta;
+        margin: 10px;
+    }
+
+    /*the third div*/
+    .threecat {
+        float: left;
+        width: 28%;
+        background: -webkit-radial-gradient(circle, red 0%,
+        hotpink 20%, cyan 60%, violet 100%);
+        padding: 20px;
+        border: dotted plum;
+        margin: 10px;
+    }
+
+    /*meow div when hovered*/
+    .meow:hover {
+        transform: translate(50px, +4em);
+    }
+
+    /*meow div*/
+    .meow {
+        padding: 20px;
+        border: dashed cornflowerblue;
+        margin: 10px;
+    }
+
+    /*purr div when hovered*/
+    .purr:hover {
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+    }
+
+    /*purr div*/
+    .purr {
+        padding: 10px;
+        border: dashed darkcyan;
+        margin: 15px;
+    }
+
+    /*shhh div when hovered*/
+    .shhh:hover {
+        transform: scale(0.5);
+
+    }
+
+    /*shhh div*/
+    .shhh {
+        padding: 11px;
+        border: double forestgreen;
+        margin: 25px;
+    }
+
+    /*transition div*/
+    .trans {
+        width: 10%;
+        height: 150px;
+        background: -webkit-radial-gradient(circle, cadetblue 0%, hotpink 20%, powderblue 60%, violet 100%);
+        transition: all 5s;
+        padding: 9px;
+        border: dotted lightpink;
+        margin: 9px;
+    }
+
+    /*transition div when hovered*/
+    .trans:hover {
+        height: 100px;
+    }
+
+

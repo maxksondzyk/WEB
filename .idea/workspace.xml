@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="246196e9-a65a-4258-9572-b57b69880fa0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WwN8uskyT2NfSKxl2WCYRmNRQA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Max\WebstormProjects\02lab\images" />
+      <recent name="C:\Users\Max\WebstormProjects\02lab\files" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Max\WebstormProjects\02lab\files" />
+      <recent name="C:\Users\Max\WebstormProjects\01lab\images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="246196e9-a65a-4258-9572-b57b69880fa0" name="Default Changelist" comment="" />
+      <created>1580056540200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580056540200</updated>
+      <workItem from="1580056541437" duration="4341000" />
+      <workItem from="1580111796036" duration="10909000" />
+      <workItem from="1580371312712" duration="2934000" />
+      <workItem from="1580644953652" duration="6181000" />
+      <workItem from="1580882864377" duration="936000" />
+      <workItem from="1580939467573" duration="2700000" />
+      <workItem from="1581354682987" duration="7832000" />
+      <workItem from="1581430694208" duration="5577000" />
+      <workItem from="1581548804457" duration="367000" />
+      <workItem from="1581577037453" duration="8354000" />
+      <workItem from="1581880459930" duration="18710000" />
+      <workItem from="1582133501175" duration="10326000" />
+      <workItem from="1582459845349" duration="102000" />
+      <workItem from="1582460208255" duration="13672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="722" y="80" key="#Inspections" timestamp="1581945838210">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="722" y="80" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1581945838210" />
+    <state x="148" y="224" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581364725648">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="148" y="224" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1581364725648" />
+    <state x="810" y="193" width="672" height="677" key="run.anything.popup" timestamp="1582463366460">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="810" y="193" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1582463366460" />
+    <state x="814" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1582146913133">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="814" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1582146913133" />
+  </component>
+</project>
